@@ -1,10 +1,10 @@
 import React from 'react';
-import withThemes from "@mlambda-net/core/packages/utils/withThemes";
-import Box from '@mui/material/Box';
-import SignIn from "@mlambda-net/core/packages/login/signin";
+import {withThemes, SignIn } from '@mlambda-net/web-core';
+import {Box} from '@mui/material';
 
 
-const styles = (themes) => ({
+
+const styles = () => ({
   root: {
     height: '100%',
     backgroundRepeat: 'no-repeat',
